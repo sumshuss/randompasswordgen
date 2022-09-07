@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.header {
+    margin-right: 52px;
+    margin-top: 0px;
+    padding-left: 0;
+    margin-left: 52px;
+    position: relative;
+    border-bottom: 1px solid #2F3E53;
+
+}
+.header h1 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    margin:0;
+    margin-top: 118px;
+    color: #2B283A;;
+
+}
+
+.colour {
+     color: #4C1D95;
+}
+
+#pass-btn {
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 18px 10px 13px;
+    background:#6D28D9;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+
+}
+
+#lightning-icon {
+  height: 18px;
+  width: 14px;
+  margin-right:15px;
+  top: 1px;
+}
+
+.header h2 {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2B283A;;
+  margin-top: 10px;
+}
+
+main {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 62px;
+  top: 64px;
+  font-style: normal;
+  background: #C4B5FD;
+}
+
+.passBox {
+  margin: 0;
+  padding: 0;
+  left: 30px;
+  right: 30px;
+  position: absolute;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  text-align: center;
+ 
+}
+
+.boxes {
+  margin: auto;
+  background: #273549;
+  border-radius: 6px;
+  width: 47.5%;
+  height: 55px;
+  left: 0px;
+  text-align: center;
+  margin-top: 30px;
+  color: #DDD6FE;
+
+}
+
+.boxes p {
+  text-align: center;
+  position: sticky;
+  margin: 5px 7px;
+  font-size: 16px;
+  flex-shrink: 1;
+}
+
+
